@@ -28,3 +28,10 @@ class SubClass(Base):
         print "before Base log()"
         super(SubClass, cls).log()
         print "log Sub Class"
+
+
+
+def run1():
+    """ Test python class """
+    mytest = SubClass()
+    mytest.log()

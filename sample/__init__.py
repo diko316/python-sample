@@ -1,6 +1,8 @@
-"""Nothing special, just calling sample.test.show()
-"""
+"""Nothing special, just calling sample.test.show()"""
 
-from sample import test
+from sample import scoping, oop
 
-test.show()
+
+def run_all():
+    scoping.run()
+    oop.run()

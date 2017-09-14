@@ -1,17 +1,17 @@
-""" Just trying to run sample.test.run()
-"""
-
-from sample import test
-
-print test.name
-print "1. Test Run"
-test.run()
-
-print "2. Scoping"
-test.scoping()
-print "-- next"
-test.scoping_next()
+#!/usr/bin/env python
+""" Just trying to run sample.test.run() """
 
 
-print "3. Class"
-test.test_class();
+
+from distutils.core import setup
+
+from sample import run_all
+
+run_all()
+
+setup(name='Sample',
+      version='0.0.1',
+      description='Test Python Distribution',
+      author='Diko Tech Slave',
+      author_email='diko316@gmail.com'
+     )

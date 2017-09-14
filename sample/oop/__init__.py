@@ -1,8 +1,15 @@
 
-__all__ = ['TestClass']
 
+from sample.oop.declaration import run1
 
-from sample.oop import declaration
+def run():
+    print """
 
+    Class
 
-TestClass = declaration.SubClass
+    1. declaration
+
+    """
+
+    run1()
+
