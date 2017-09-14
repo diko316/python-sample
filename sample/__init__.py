@@ -1,4 +1,6 @@
+"""Nothing special, just calling sample.test.show()
+"""
 
-from sample.test import show
+from sample import test
 
-show()
+test.show()

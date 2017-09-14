@@ -1,4 +1,6 @@
+""" Just trying to run sample.test.run()
+"""
 
-from sample.test import run
+from sample import test
 
-run()
+test.run()
